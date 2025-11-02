@@ -35,23 +35,6 @@ Three separate simulators generate events from different network domains:
 - **VendorB**: Simulates Core Network alarms
 - **VendorC**: Simulates Transport Network alarms
 
-## Project Structure
-
-```
-vision-hack/
-├── backend/
-│   └── app.py                # FastAPI backend server
-├── ui/
-│   └── app.py                # Streamlit UI application
-├── simulators/
-│   ├── vendorA_sim.py        # RAN simulator
-│   ├── vendorB_sim.py        # Core network simulator
-│   └── vendorC_sim.py        # Transport network simulator
-├── sample_events.json        # Sample events for reference
-├── requirements.txt          # Project dependencies
-└── README.md                 # This file
-```
-
 ## Prerequisites
 
 - Python 3.8+
