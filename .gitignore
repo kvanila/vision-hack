@@ -1,0 +1,18 @@
+# Python cache and virtualenv
+__pycache__/
+*.pyc
+venv/
+.env
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# IDEs
+.vscode/
+.idea/
+
+# Build artifacts
+*.zip
+*.egg-info/
+

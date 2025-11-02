@@ -1,0 +1,6 @@
+[
+  {"vendor":"VendorA","type":"RAN_ALARM","cell":"Cell-1","ts":1690000000,"desc":"HIGH_RTT","severity":"major","metrics":{"rtt":120}},
+  {"vendor":"VendorB","alarm":"SESSION_DROP","core_id":"Core-1","time":1690000001,"level":"major","metrics":{"cpu":90}},
+  {"vendor":"VendorC","type":"HIGH_LATENCY","link":"Link-1","ts":1690000002,"severity":"major","metrics":{"latency_ms":200}}
+]
+
